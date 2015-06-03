@@ -1,16 +1,29 @@
 {
-    "name": "software-quality-and-testing-exam-git",
-    "description": "Software Quality and Testing Exam on Git",
+  "name": "software-quality-and-testing-exam-git",
+  "description": "Software Quality and Testing Exam on Git",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-node": "1.14.5",
+    "name": "software-quality-and-testing-exam",
+    "description": "Software Quality and Testing Exam",
     "version": "0.0.1",
     "dependencies": {},
     "devDependencies": {
-        "jasmine-node": "1.14.5"
+      "jasmine-node": "1.14.5",
+      "karma": "0.12.16",
+      "karma-coverage": "0.3.1",
+      "karma-jasmine": "0.1.5",
+      "karma-junit-reporter": "0.2.2",
+      "karma-phantomjs-launcher": "0.1.4",
+      "karma-spec-reporter": "0.0.13"
     },
     "engines": {
-        "node": ">=0.10.0"
+      "node": ">=0.10.0"
     },
     "scripts": {
-        "start": "node_modules/jasmine-node/bin/jasmine-node --autotest app/ spec/",
-        "test": "node_modules/jasmine-node/bin/jasmine-node spec/"
+      "start": "node_modules/jasmine-node/bin/jasmine-node --autotest app/ spec/",
+      "test": "node_modules/jasmine-node/bin/jasmine-node spec/"
     }
+  }
 }
